@@ -6,7 +6,7 @@ WORKDIR /tika-server
 
 RUN apt-get update \
     && apt-get install openjdk-8-jre-headless gdal-bin tesseract-ocr \
-        tesseract-ocr-eng tesseract-ocr-ita tesseract-ocr-fra tesseract-ocr-spa tesseract-ocr-deu -y \
+        tesseract-ocr-eng -y \
     && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 EXPOSE 9998
