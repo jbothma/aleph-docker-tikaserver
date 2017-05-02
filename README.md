@@ -9,11 +9,11 @@ This repo contains the Dockerfile to create a docker image that contains the lat
 
 First you need to pull down the build from Dockerhub, which can be done by invoking:
 
-    docker pull maquchizi/aleph-docker-tikaserver
+    docker pull codeforafrica/aleph-docker-tikaserver
 
 Then to run the container, execute the following command:
 
-    docker run -d -p 9998 maquchizi/aleph-docker-tikaserver
+    docker run -d -p 9998 codeforafrica/aleph-docker-tikaserver
 
 ## Building
 
